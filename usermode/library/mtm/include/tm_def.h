@@ -24,7 +24,7 @@ TM_PURE long int strtol(const char *nptr, char **endptr, int base);
 TM_PURE unsigned long long int strtoull(const char *nptr, char **endptr, int base);
 
 
-#if (__GLIBC__ == 2 && __GLIBC_MINOR__ > 19)
+#if (__GLIBC__ == 2 && __GLIBC_MINOR__ > 27)
 TM_PURE int fprintf (FILE *__restrict __stream, const char *__restrict __fmt, ...);
 TM_PURE int sprintf (char *__restrict __s, const char *__restrict __format, ...) __THROWNL;
 TM_PURE int snprintf (char *__restrict __s, size_t __maxlen, const char *__restrict __format, ...)

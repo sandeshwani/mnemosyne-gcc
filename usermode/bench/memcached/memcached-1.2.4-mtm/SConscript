@@ -16,7 +16,6 @@ myEnv.Append(LIBS = [pmallocLibrary])
 myEnv.Append(LIBS = ['pthread'])
 myEnv.Append(LIBS = ['event'])
 
-
 # Hashtable & BDB kvdriver
 
 if myEnv['BUILD_PVAR'] == True:
